@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import Main from './components/Main';
-import Navbar from './components/Navbar';
+import NavBar from './components/NavBar';
 
 const tempMovieData = [
   {
@@ -56,7 +56,7 @@ export default function App() {
 
   return (
     <>
-      <Navbar movies={movies} />
+      <NavBar />
       <Main watched={watched} movies={movies} />
     </>
   );
