@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 import Main from './components/Main';
 import NavBar from './components/NavBar';
 
