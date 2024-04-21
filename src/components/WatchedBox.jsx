@@ -9,7 +9,6 @@ function WatchedBox() {
   const [watched, setWatched] = useState(tempWatchedData);
 
   return (
-    <>
       <div className="box">
         <button className="btn-toggle" onClick={() => setIsOpen2((open) => !open)}>
           {isOpen2 ? '–' : '+'}
@@ -21,7 +20,6 @@ function WatchedBox() {
           </>
         )}
       </div>
-    </>
   );
 }
 
