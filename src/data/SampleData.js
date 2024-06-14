@@ -41,6 +41,6 @@ export const tempWatchedData = [
       'https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg',
     runtime: 116,
     imdbRating: 8.5,
-    userRating: 9,
+    userRating: 10,
   },
 ];
